@@ -12,11 +12,13 @@ const Markdown = React.lazy(() => import('marked-react'))
 const AppendocViewer = (props: AppendocViewerProps) => {
     const updateCodeSyntaxHighlighting = () => {
         document.querySelectorAll("pre code").forEach(block => {
+            console.log(block)
             hljs.highlightElement(block as HTMLElement)
         })
     }
 
     useEffect(() => {
+        console.log('외않데?')
         updateCodeSyntaxHighlighting()
     })
 
