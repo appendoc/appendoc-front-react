@@ -8,7 +8,7 @@ type IconProps = {
 const Icon = (props: IconProps) => {
     return (
         <a href={props.href}>
-            <img src={`./icon/${props.iconName}`}/>
+            <img src={`/icon/${props.iconName}`}/>
         </a>
     )
 }
