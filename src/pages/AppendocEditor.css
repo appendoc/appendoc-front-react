@@ -1,0 +1,13 @@
+.appendoc-editor {
+    width: 100%;
+}
+
+.appendoc-editor-wrapper {
+    width: 90%;
+    padding: 30px 10%;
+    margin: auto;
+}
+
+.appendoc-editor-body {
+    display: flex;
+}

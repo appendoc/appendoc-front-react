@@ -1,0 +1,8 @@
+.appendoc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 65%;
+    margin: auto;
+}

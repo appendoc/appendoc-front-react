@@ -1,0 +1,128 @@
+@import "../index.css";
+
+.editor-preview-article {
+    width: 100%;
+    flex: 1;
+    padding: 20px 0;
+}
+
+.editor-preview-article-title {
+    color: #edf0f1;
+    font-size: 64px;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.editor-preview-article .editor-preview-article-title ~ h1, h2, h3, h4, h5, h6 {
+    color: #edf0f1;
+    padding-top: 4rem;
+    padding-bottom: 10px;
+    border-bottom: 2px #edf0f1 solid;
+}
+
+.editor-preview-article .editor-preview-article-title ~ h1 {
+    font-size: 2rem;
+}
+
+.editor-preview-article h2 {
+    font-size: 1.8rem;
+}
+
+.editor-preview-article h3 {
+    font-size: 1.6rem;
+}
+
+.editor-preview-article h4 {
+    font-size: 1.4rem;
+}
+
+.editor-preview-article h5 {
+    font-size: 1.2rem;
+}
+
+.editor-preview-article h6 {
+    font-size: 1rem;
+}
+
+.editor-preview-article blockquote {
+    margin: 1rem 0;
+    padding: 1.5rem 15rem 1.5rem 1.5rem;
+    border: 3px #edf0f1 dashed;
+    border-left: 10px #0088A9 solid;
+    background-color: #1f1f2f;
+    display: inline-block;
+}
+
+.editor-preview-article blockquote > * {
+    background-color: #1f1f2f;
+    color: #edf0f1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.editor-preview-article-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.editor-preview-article-info > ul {
+    list-style: none;
+    padding: 20px 0;
+    color: #edf0f1;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.editor-preview-article-info > ul > li > a {
+    font-size: 18px;
+    color: #0088A9;
+    font-weight: 700;
+}
+
+.editor-preview-article-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.editor-preview-article-nav-menu {
+    list-style: none;
+    border: 1px white solid;
+}
+
+.editor-preview-article-nav-menu li {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+}
+
+.editor-preview-article-nav-menu li:hover > a {
+    color: #0088A9;
+    background-color: #edf0f1;
+    transition: all 0.5s ease 0s;
+}
+
+.editor-preview-article-nav-menu li:hover {
+    transition: all 0.5s ease 0s;
+    background-color: #edf0f1;
+    cursor: pointer;
+}
+
+.editor-preview-article-nav-menu :not(:last-child) {
+    border-right: 1px white solid;
+}
+
+
+.editor-preview-article > p {
+    color: #edf0f1;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.editor-preview-article code {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}

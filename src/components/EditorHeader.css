@@ -1,0 +1,16 @@
+.editor-header {
+    margin: auto;
+}
+
+.editor-header > input {
+    width: 100%;
+    font-size: 64px;
+    color: #edf0f1;
+    outline: none;
+    border: 0;
+    border-bottom: 2px #edf0f1 solid;
+}
+
+.editor-header > input:focus {
+    outline: none;
+}

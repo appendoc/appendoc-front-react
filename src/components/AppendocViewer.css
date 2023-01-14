@@ -1,0 +1,129 @@
+@import "../index.css";
+
+.appendoc-wiki-article {
+    padding: 30px 10%;
+    width: 65%;
+    margin: auto;
+}
+
+.appendoc-wiki-article-title {
+    color: #edf0f1;
+    font-size: 64px;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.appendoc-wiki-article .appendoc-wiki-article-title ~ h1, h2, h3, h4, h5, h6 {
+    color: #edf0f1;
+    padding-top: 4rem;
+    padding-bottom: 10px;
+    border-bottom: 2px #edf0f1 solid;
+    margin-bottom: 1.5rem;
+}
+
+.appendoc-wiki-article .appendoc-wiki-article-title ~ h1 {
+    font-size: 2rem;
+}
+
+.appendoc-wiki-article h2 {
+    font-size: 1.8rem;
+}
+
+.appendoc-wiki-article h3 {
+    font-size: 1.6rem;
+}
+
+.appendoc-wiki-article h4 {
+    font-size: 1.4rem;
+}
+
+.appendoc-wiki-article h5 {
+    font-size: 1.2rem;
+}
+
+.appendoc-wiki-article h6 {
+    font-size: 1rem;
+}
+
+.appendoc-wiki-article blockquote {
+    margin: 1rem 0;
+    padding: 1.5rem 15rem 1.5rem 1.5rem;
+    border: 3px #edf0f1 dashed;
+    border-left: 10px #0088A9 solid;
+    background-color: #1f1f2f;
+    display: inline-block;
+}
+
+.appendoc-wiki-article blockquote > * {
+    background-color: #1f1f2f;
+    color: #edf0f1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.appendoc-wiki-article-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.appendoc-wiki-article-info > ul {
+    list-style: none;
+    padding: 20px 0;
+    color: #edf0f1;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.appendoc-wiki-article-info > ul > li > a {
+    font-size: 18px;
+    color: #0088A9;
+    font-weight: 700;
+}
+
+.appendoc-wiki-article-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.appendoc-wiki-article-nav-menu {
+    list-style: none;
+    border: 3px white solid;
+}
+
+.appendoc-wiki-article-nav-menu li {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+}
+
+.appendoc-wiki-article-nav-menu li:hover > a {
+    color: #0088A9;
+    background-color: #edf0f1;
+    transition: all 0.5s ease 0s;
+}
+
+.appendoc-wiki-article-nav-menu li:hover {
+    transition: all 0.5s ease 0s;
+    background-color: #edf0f1;
+    cursor: pointer;
+}
+
+.appendoc-wiki-article-nav-menu :not(:last-child) {
+    border-right: 3px white solid;
+}
+
+
+.appendoc-wiki-article > p {
+    color: #edf0f1;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.appendoc-wiki-article code {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
