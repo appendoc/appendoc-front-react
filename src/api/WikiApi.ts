@@ -25,6 +25,7 @@ class WikiApiImpl implements WikiApi {
     }
 
     getWikiDocument = async (documentName: string) => {
+        // TODO: 통합된 Path 관리 필요
         console.debug(`request path: /wiki/${documentName}`)
         const response = this.apiClient
             .get<FindWikiDocumentResponse | WikiDocumentNotFoundResponse>(`/wiki/${documentName}`)

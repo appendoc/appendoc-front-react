@@ -19,7 +19,7 @@ const AppendocNavigation = () => {
                     {title: '기여가 필요한 문서', href: '#'},*/
                 ]
             }/>
-            <Icon href={"#"} iconName={"manage_accounts_white_24dp.svg"}/>
+            <Icon href={"/sign-in-required"} iconName={"manage_accounts_white_24dp.svg"}/>
         </header>
     );
 }
