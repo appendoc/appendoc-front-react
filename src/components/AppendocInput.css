@@ -1,0 +1,9 @@
+.appendoc-input-wrapper > input {
+    width: 100%;
+    outline: none;
+    border: 3px white solid;
+    color: #edf0f1;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-indent: 0.5rem;
+}

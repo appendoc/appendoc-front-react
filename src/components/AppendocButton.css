@@ -1,0 +1,14 @@
+.appendoc-button {
+    padding: 1rem;
+    color: #edf0f1;
+    border: 3px white solid;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.appendoc-button:hover {
+    cursor: pointer;
+    background-color: #0088A9;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+}

@@ -18,7 +18,6 @@ const AppendocViewer = (props: AppendocViewerProps) => {
     }
 
     useEffect(() => {
-        console.log('외않데?')
         updateCodeSyntaxHighlighting()
     })
 

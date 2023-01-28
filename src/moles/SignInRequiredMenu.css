@@ -1,0 +1,10 @@
+@import "../index.css";
+
+.appendoc-sign-in-required-menu {
+    color: #edf0f1;
+    padding: 30px 10%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
